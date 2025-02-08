@@ -1,0 +1,23 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "eCommerce applicaion built with MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/76248usa/proShopv2.git"
+  },
+  "author": "Elsabe Crous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/76248usa/proShopv2/issues"
+  },
+  "homepage": "https://github.com/76248usa/proShopv2#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
