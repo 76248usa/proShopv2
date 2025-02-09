@@ -1,7 +1,7 @@
 {
   "name": "proshop",
   "version": "1.0.0",
-  "description": "eCommerce applicaion built with MERN stack",
+  "description": "eCommerce application built with MERN stack",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/76248usa/proShopv2#readme",
   "dependencies": {
+    "axios": "^1.7.9",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
