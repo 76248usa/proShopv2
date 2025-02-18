@@ -6,9 +6,8 @@ import Rating from "../components/Rating";
 import axios from "axios";
 
 const ProductScreen = () => {
+  const [product, setProduct] = useState({});
   const { id: productId } = useParams();
-
-  const [product, setProduct] = useState();
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -41,7 +40,7 @@ const ProductScreen = () => {
               </Rating>
             </ListGroup.Item>
             <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
-            <ListGroup.Item>Description: ${product.description}</ListGroup.Item>
+            <ListGroup.Item>Description: {product.description}</ListGroup.Item>
           </ListGroup>
         </Col>
         <Col md={3}>
